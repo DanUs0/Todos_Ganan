@@ -106,7 +106,7 @@ public class FrmProductos extends javax.swing.JFrame {
     txtNombre.setText("");
     txtPrecio.setText("");
 
-    // Mostrar lista completa
+    // Mostrar la lista completa
     txtLista.setText("");
     for (Producto prod : listaProductos) {
         txtLista.append(prod.toString() + "\n");
